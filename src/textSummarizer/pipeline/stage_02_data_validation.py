@@ -7,8 +7,7 @@ class DataValidationTrainingPipeline:
     def __init__(self):
         pass
     def main(self):
-        config=configurationManager()
+        config = configurationManager()
         data_validatiion_config = config.get_data_validation_config()
         data_validation = DataValidation(config=data_validatiion_config)
-        data_validation.download_file()
-        data_validation.extract_zip_file()
+        data_validation.validate_all_files_exist()
