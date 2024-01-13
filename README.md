@@ -10,3 +10,10 @@
 6. Update the pipeline
 7. Update the main.py
 8. Update the app.py
+
+# How to run?
+### STEPS:
+#### Clone the repository
+```bash
+https://github.com/adarsh-gowda/Text-Summarizer-Project
+```
